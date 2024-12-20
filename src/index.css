@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
