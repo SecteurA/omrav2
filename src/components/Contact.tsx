@@ -55,29 +55,45 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="bg-white rounded-xl shadow-lg p-8">
-            <div className="space-y-8">
-              <div className="flex items-start">
-                <Phone className="w-6 h-6 text-accent ml-4 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">اتصل بنا</h3>
-                  <p className="text-gray-600">+966 12 345 6789</p>
+          <div className="space-y-8">
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <div className="space-y-8">
+                <div className="flex items-start">
+                  <Phone className="w-6 h-6 text-accent ml-4 mt-1" />
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">اتصل بنا</h3>
+                    <p className="text-gray-600 ltr">+212 537 72 99 24</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <Mail className="w-6 h-6 text-accent ml-4 mt-1" />
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">راسلنا</h3>
+                    <p className="text-gray-600 ltr">contact@travel4you.ma</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <MapPin className="w-6 h-6 text-accent ml-4 mt-1" />
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">موقعنا</h3>
+                    <p className="text-gray-600">27 شارع الأمير مولاي عبد الله رقم 2، الرباط</p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-start">
-                <Mail className="w-6 h-6 text-accent ml-4 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">راسلنا</h3>
-                  <p className="text-gray-600">info@travel4you.com</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <MapPin className="w-6 h-6 text-accent ml-4 mt-1" />
-                <div>
-                  <h3 className="font-bold text-lg mb-1">موقعنا</h3>
-                  <p className="text-gray-600">المملكة العربية السعودية، مكة المكرمة</p>
-                </div>
-              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.5721398457247!2d-6.837160824520796!3d34.01715097941439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76c7c6c344da7%3A0x8f94dc3d89c9f13e!2s27%20Avenue%20Prince%20Moulay%20Abdellah%2C%20Rabat%2C%20Morocco!5e0!3m2!1sen!2sus!4v1709913824607!5m2!1sen!2sus"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="موقعنا على الخريطة"
+                className="w-full"
+              />
             </div>
           </div>
         </div>
