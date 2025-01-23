@@ -42,10 +42,10 @@ export default function HeroOffer() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            12,900
+            11,500
           </motion.span>
           <div className="text-lg">
-            <span className="text-red-500 line-through">13,900</span>
+            <span className="text-red-500 line-through">12,500</span>
             <span className="block">درهم</span>
           </div>
         </div>

@@ -33,7 +33,7 @@ export default function RamadanOmrahOffer() {
               <Star className="w-6 h-6 sm:w-8 sm:h-8 text-accent" />
             </div>
             <p className="text-lg sm:text-xl text-gray-600 mb-4">
-              من 11/03/2024 إلى 09/04/2024
+              ابتداء من 20 فبراير 2025
             </p>
             <div className="inline-flex items-center gap-2">
               <span className="text-base sm:text-lg text-gray-700">إبتداء من</span>
@@ -48,7 +48,7 @@ export default function RamadanOmrahOffer() {
                   }
                 }}
               >
-                14,900 درهم
+                19,900 درهم
               </motion.span>
             </div>
           </motion.div>

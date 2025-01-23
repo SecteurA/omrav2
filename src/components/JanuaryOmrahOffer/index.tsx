@@ -48,7 +48,7 @@ export default function JanuaryOmrahOffer() {
                   }
                 }}
               >
-                12,900 درهم
+                11,500 درهم
               </motion.span>
             </div>
           </motion.div>
